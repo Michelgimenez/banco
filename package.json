@@ -1,0 +1,16 @@
+{
+  "name": "banco",
+  "version": "1.0.0",
+  "description": "banco",
+  "main": "index.html",
+  "scripts": {
+    "watch:sass": "node-sass ./sass/main.scss ./css/style.css -w",
+    "start": "parcel index.html"
+  },
+  "author": "michel gimenez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "parcel": "^1.12.4"
+  }
+}
